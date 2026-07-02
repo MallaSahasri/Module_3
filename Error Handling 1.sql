@@ -49,3 +49,8 @@ BEGIN
 END;
 /
 SELECT * FROM Accounts;
+
+BEGIN
+    SafeTransferFunds(101,102,10000);
+END;
+/
